@@ -6,6 +6,8 @@ This service is started once and it will run a thread that checks the blob stora
 It's recommended that you still do deployments on a regular interval just so Azure has the proper packages to create new machines.
 Otherwise, new machines will be created with a old deployement - but still, it will update from the blog and it may work if you have all the updated files on the blog.
 
+This service is used in production on [opentraits.com](http://opentraits.com)
+
 **Usage**
 ```cs
 protected void Application_Start()
