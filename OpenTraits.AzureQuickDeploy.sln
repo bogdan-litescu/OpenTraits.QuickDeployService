@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenTraits.AzureQuickDeploy", "OpenTraits.AzureQuickDeploy\OpenTraits.AzureQuickDeploy.csproj", "{C930DF82-06E8-457C-983C-F7F1D9A18305}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenTraits.AzureQuickDeploy.Cli", "OpenTraits.AzureQuickDeploy.Cli\OpenTraits.AzureQuickDeploy.Cli.csproj", "{265704FE-AB74-4417-B867-7A783949784B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{C930DF82-06E8-457C-983C-F7F1D9A18305}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C930DF82-06E8-457C-983C-F7F1D9A18305}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C930DF82-06E8-457C-983C-F7F1D9A18305}.Release|Any CPU.Build.0 = Release|Any CPU
+		{265704FE-AB74-4417-B867-7A783949784B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{265704FE-AB74-4417-B867-7A783949784B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{265704FE-AB74-4417-B867-7A783949784B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{265704FE-AB74-4417-B867-7A783949784B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
